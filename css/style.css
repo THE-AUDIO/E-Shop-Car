@@ -8,10 +8,11 @@
 
 body {
     user-select: none;
-    background-image: url('/img/background.avif');
+    background-image: url('../img/background.avif');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
+    background-attachment: fixed;
+    background-position: center;
     margin: auto 3rem;
 }
 
